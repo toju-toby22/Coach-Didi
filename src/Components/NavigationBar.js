@@ -33,7 +33,7 @@ class NavigationBar extends Component {
 
                     </Nav.Item>
                     <Nav.Item as="li">
-                <h2>COACH DIDI</h2>
+                <h2>COACH DIDDI</h2>
 
                     </Nav.Item>
 

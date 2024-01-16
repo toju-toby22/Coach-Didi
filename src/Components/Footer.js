@@ -15,7 +15,7 @@ const Footer = () => {
                   <div className="footer_col" id="company">
                       <img src="images/logo.png" alt="" className="logo"/>
                       <h1>
-                      COACH DIDI
+                      COACH DIDDI
                       </h1>
                       <div className="social">
                         <FaFacebookF className='footer_icon'/>
