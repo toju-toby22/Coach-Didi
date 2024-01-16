@@ -3,7 +3,7 @@ import "../Styles/Bannner.css"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import image1 from "../Assets/didi.jpeg"
+import image1 from "../Assets/logo.jpeg"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
@@ -29,7 +29,7 @@ const Banner = () => {
 
                                 <h4 className="intro_text">
                                    Happiness is an inside job. It is not something you
-                                   find,iy is something you create. The key to your happness and good mental health is YOU!
+                                   find,it is something you create. The key to your happness and good mental health is YOU!
                                 </h4>
 
                                 

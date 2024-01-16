@@ -23,7 +23,7 @@ const Banner2 = () => {
                                 <p className="first_text banner_2text">about me</p>
 
                                 <h1 className="main_text">
-                                Been called life coach, great friend, legend.
+                                Been called life coach, great friend and Mother.
                                 </h1>
 
                                 <h4 className="intro_text">

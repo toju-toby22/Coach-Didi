@@ -29,10 +29,10 @@ const Footer = () => {
                   <div className="footer_col" id="services">
                      <h3>Services</h3>
                      <div className="links">
-                        <a href="#">Illustration</a>
-                        <a href="#">Creatives</a>
-                        <a href="#">Poster Design</a>
-                        <a href="#">Card Design</a>
+                        <a href="#">Mental Health Coaching</a>
+                        <a href="#">Counselling</a>
+                        <a href="#">Interior Decoration</a>
+                        <a href="#">Graphics Design</a>
                      </div>
                   </div>
 
