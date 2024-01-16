@@ -1,0 +1,111 @@
+.contain_nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    padding: 15px;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+
+}
+
+
+.logo_icon{
+    font-size: 35px;
+}
+
+
+
+.logo_container h2{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.logo_container{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* font-size: 20px; */
+    /* font-family: 'Exo 2', sans-serif; */
+}
+.logo_container{
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 20px;
+    /* border-bottom: white; */
+}
+
+#navbar li{
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li:hover{
+    cursor: pointer;
+    color: #c3cfe2;
+ 
+}
+
+#navbar li:hover::after {
+    content: "";
+    width: 70%;
+    height: 2px;
+    background: #c3cfe2;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width:769px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        position: fixed;
+        top: 64px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        /* gap: 30px; */
+        box-shadow: 0 40px 60px rgba(133, 133, 133, 0.897);
+        font-size: 20px;
+         background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+        padding: 40px 0 0 10px;
+         /* border-bottom: white; */
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: block;
+    }
+
+    .menu_times_icon{
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .contain_nav_bar{
+        z-index: 200;
+    }
+}
